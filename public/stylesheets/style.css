@@ -78,7 +78,7 @@ li a:hover:not(.active) {
 
 .services_heading{
   padding-left: 50%;
-
+  font-size: 30px;
 }
 
 
@@ -236,7 +236,7 @@ service-item {
 }
 
 
-.projects {
+.project {
   background-color: var(--bg-color);
   padding: 32px;
   margin-top: 2rem;
