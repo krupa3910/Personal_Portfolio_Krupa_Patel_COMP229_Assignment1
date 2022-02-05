@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/javascripts/header.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  <body>
+    <%- include('./partials/header'); %> 
+
+        <div>
+      <h2 class="about_heading">            !!!! Thats all about me !!!!        </h2>
+
+      <div class="container-fluid mt-3" >
+
+        <div class="row about" >
+
+            <div class="col-sm-8 p-3 " >
+            
+            <p class="aboutme_para" style="font-size: 22px;font-family:'Arial Bold', sans-serif;"> I am Krupa Patel, An Australian Citizen, Graduated from University of Sydney, Australia currently pursuing Advanced Diploma in Software Technology- Artificial Intelligence at Centennial College, Toronto.
+      
+              Previously I have worked with few private and public limited companies in Australia as an Infrastructure Support Engineer.
+              This Personal Portfolio Creation is my first Web Development Project and I am very excited about it.
+              
+              I am looking forward to enhance further future opportunities within Interactive Web Designing and Development areas.
+              
+              
+            </p>
+            
+          </div>
+               
+           
+
+          <div class="col-sm-2 p-3 ">
+
+            <div>
+
+              <img src="/images/krupa2.jpg" width="200" height="200" style="border:4px solid #64ffda">
+
+            </div>
+
+           
+
+          <div class="resume_button">
+
+            <a class="resume_link" href="/resume"  >Resume</a>
+
+          </div>
+
+           
+
+          </div>
+
+          
+
+        </div>
+
+     
+    <footer id="footer">
+        <%- include('./partials/footer'); %> 
+    </footer>
+    
+  </body>
+</html>

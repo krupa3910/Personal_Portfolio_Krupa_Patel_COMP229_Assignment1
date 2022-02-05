@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/javascripts/header.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <%- include('./partials/header'); %> 
+
+<section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+           <img src="images/WEB.jpg" alt="jane-doe"loading="lazy"/>
+          <h3 class="project-title">Web Design</h3>
+          <p class="project-details">
+            Sample web design for online resume website examples
+          </p>
+          <a href="https://zety.com/blog/resume-website" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          
+           <img
+        src="images/APP.jpg"
+        alt="jane-doe"
+        loading="lazy"
+      />
+          <h3 class="project-title">App Development</h3>
+          <p class="project-details">
+            Attended freecode camp for Android App Development for Beginners
+          </p>
+          <a href="https://www.freecodecamp.org/news/android-app-development-for-beginners/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          
+           <img
+        src="images/SEO.jpg"
+        alt="jane-doe"
+        loading="lazy"
+      />
+          <h3 class="project-title">Content Creation</h3>
+          <p class="project-details">
+            Attended Website content creation workshop
+          </p>
+          <a href="https://websitecreationworkshop.com/blog/marketing/simple-content-creation-ideas/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+<footer id="footer1">
+        <%- include('./partials/footer'); %> 
+    </footer>
+  </body>
+  </html>
