@@ -12,11 +12,11 @@ var businessContact = require("../model/contactModel");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('home', { title: 'Home' });
+  res.render('homee', { title: 'Home' });
 });
 /* GET Home page. */
-router.get('/home', function(req, res, next) {
-  res.render('home', { title: 'Home'});
+router.get('/homee', function(req, res, next) {
+  res.render('homee', { title: 'Home'});
 });
 
 /* GET About Me page. */
