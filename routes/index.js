@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
 });
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home'});
+  res.render('home', { title: 'Home'});
 });
 
 /* GET About Me page. */
