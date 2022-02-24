@@ -1,3 +1,5 @@
+
+/* GET & POST method for contact form */
 jQuery(function() {
 
  
