@@ -14,9 +14,9 @@ var businessContact = require("../model/contactModel");
 router.get('/', function(req, res, next) {
   res.render('home', { title: 'Home' });
 });
-/* GET home page. */
+/* GET About Me page. */
 router.get('/home', function(req, res, next) {
-  res.render('home', { title: 'Home' });
+  res.render('home', { title: 'Home'});
 });
 
 /* GET About Me page. */
